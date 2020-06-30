@@ -2,7 +2,7 @@ package io.eventuate.local.common;
 
 import io.eventuate.cdc.producer.wrappers.DataProducer;
 import io.eventuate.cdc.producer.wrappers.DataProducerFactory;
-import io.eventuate.common.eventuate.local.BinLogEvent;
+import io.eventuate.local.BinLogEvent;
 import io.eventuate.local.common.exception.EventuateLocalPublishingException;
 import io.micrometer.core.instrument.Counter;
 import io.micrometer.core.instrument.DistributionSummary;

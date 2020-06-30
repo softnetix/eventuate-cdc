@@ -1,7 +1,7 @@
 package io.eventuate.tram.cdc.connector;
 
-import io.eventuate.common.eventuate.local.BinlogFileOffset;
 import io.eventuate.common.jdbc.EventuateSchema;
+import io.eventuate.local.BinlogFileOffset;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

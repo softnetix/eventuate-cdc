@@ -1,7 +1,7 @@
 package io.eventuate.local.db.log.common;
 
-import io.eventuate.common.eventuate.local.BinlogFileOffset;
 import io.eventuate.common.json.mapper.JSonMapper;
+import io.eventuate.local.BinlogFileOffset;
 import io.eventuate.local.common.CompletableFutureUtil;
 import io.eventuate.messaging.kafka.basic.consumer.EventuateKafkaConsumerConfigurationProperties;
 import io.eventuate.messaging.kafka.common.EventuateKafkaConfigurationProperties;

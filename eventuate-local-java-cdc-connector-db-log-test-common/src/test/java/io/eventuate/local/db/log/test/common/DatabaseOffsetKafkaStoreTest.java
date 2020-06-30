@@ -1,8 +1,8 @@
 package io.eventuate.local.db.log.test.common;
 
-import io.eventuate.common.eventuate.local.BinlogFileOffset;
 import io.eventuate.common.jdbc.EventuateSchema;
 import io.eventuate.common.spring.jdbc.sqldialect.SqlDialectConfiguration;
+import io.eventuate.local.BinlogFileOffset;
 import io.eventuate.local.common.EventuateConfigurationProperties;
 import io.eventuate.local.db.log.common.DatabaseOffsetKafkaStore;
 import io.eventuate.local.db.log.common.OffsetStore;

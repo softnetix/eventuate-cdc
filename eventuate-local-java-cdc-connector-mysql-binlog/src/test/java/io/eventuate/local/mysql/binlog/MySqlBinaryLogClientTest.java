@@ -1,6 +1,6 @@
 package io.eventuate.local.mysql.binlog;
 
-import io.eventuate.common.eventuate.local.PublishedEvent;
+import io.eventuate.local.PublishedEvent;
 import io.eventuate.local.test.util.TestHelper;
 import org.junit.Test;
 import org.junit.runner.RunWith;

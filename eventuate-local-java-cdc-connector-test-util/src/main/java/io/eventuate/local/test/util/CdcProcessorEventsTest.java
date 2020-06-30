@@ -1,6 +1,6 @@
 package io.eventuate.local.test.util;
 
-import io.eventuate.common.eventuate.local.PublishedEvent;
+import io.eventuate.local.PublishedEvent;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

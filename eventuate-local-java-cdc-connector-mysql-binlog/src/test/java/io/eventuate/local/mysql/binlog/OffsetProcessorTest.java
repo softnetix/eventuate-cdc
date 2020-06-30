@@ -1,7 +1,7 @@
 package io.eventuate.local.mysql.binlog;
 
 import com.google.common.collect.ImmutableMap;
-import io.eventuate.common.eventuate.local.BinlogFileOffset;
+import io.eventuate.local.BinlogFileOffset;
 import io.eventuate.local.common.OffsetProcessor;
 import io.eventuate.local.db.log.common.OffsetStore;
 import io.eventuate.util.test.async.Eventually;

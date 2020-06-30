@@ -1,8 +1,8 @@
 package io.eventuate.local.polling;
 
-import io.eventuate.common.eventuate.local.PublishedEvent;
 import io.eventuate.common.jdbc.EventuateSchema;
 import io.eventuate.common.jdbc.sqldialect.SqlDialectSelector;
+import io.eventuate.local.PublishedEvent;
 import io.eventuate.local.common.BinlogEntryHandler;
 import io.eventuate.local.common.BinlogEntryToPublishedEventConverter;
 import io.eventuate.local.common.CdcDataPublisher;

@@ -2,7 +2,7 @@ package io.eventuate.local.mysql.binlog;
 
 import com.github.shyiko.mysql.binlog.event.WriteRowsEventData;
 import com.github.shyiko.mysql.binlog.event.deserialization.json.JsonBinary;
-import io.eventuate.common.eventuate.local.BinlogFileOffset;
+import io.eventuate.local.BinlogFileOffset;
 import io.eventuate.local.common.BinlogEntry;
 import io.eventuate.local.common.SchemaAndTable;
 

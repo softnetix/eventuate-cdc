@@ -1,6 +1,8 @@
 apply plugin: PublicModulePlugin
 
 dependencies {
+    compile project (":eventuate-local")
+
     compile "io.eventuate.messaging.kafka:eventuate-messaging-kafka-spring-producer:$eventuateMessagingKafkaVersion"
     compile "io.eventuate.messaging.activemq:eventuate-messaging-activemq-spring-producer:$eventuateMessagingActiveMQVersion"
     compile "io.eventuate.messaging.rabbitmq:eventuate-messaging-rabbitmq-spring-producer:$eventuateMessagingRabbitMQVersion"

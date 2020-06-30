@@ -1,6 +1,6 @@
 package io.eventuate.local.common;
 
-import io.eventuate.common.eventuate.local.BinLogEvent;
+import io.eventuate.local.BinLogEvent;
 
 import java.util.concurrent.CompletableFuture;
 

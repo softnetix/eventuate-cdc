@@ -1,11 +1,11 @@
 package io.eventuate.local.test.util;
 
 import io.eventuate.common.common.spring.jdbc.EventuateSpringJdbcStatementExecutor;
-import io.eventuate.common.eventuate.local.BinlogFileOffset;
-import io.eventuate.common.eventuate.local.PublishedEvent;
 import io.eventuate.common.jdbc.EventuateCommonJdbcOperations;
 import io.eventuate.common.jdbc.EventuateSchema;
 import io.eventuate.common.jdbc.sqldialect.SqlDialectSelector;
+import io.eventuate.local.BinlogFileOffset;
+import io.eventuate.local.PublishedEvent;
 import io.eventuate.messaging.kafka.common.EventuateKafkaMultiMessage;
 import io.eventuate.messaging.kafka.common.EventuateKafkaMultiMessageConverter;
 import org.apache.commons.lang.StringUtils;

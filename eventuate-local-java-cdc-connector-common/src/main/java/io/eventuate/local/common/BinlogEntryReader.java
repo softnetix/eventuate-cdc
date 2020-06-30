@@ -1,7 +1,7 @@
 package io.eventuate.local.common;
 
-import io.eventuate.common.eventuate.local.BinLogEvent;
 import io.eventuate.common.jdbc.EventuateSchema;
+import io.eventuate.local.BinLogEvent;
 import io.micrometer.core.instrument.MeterRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

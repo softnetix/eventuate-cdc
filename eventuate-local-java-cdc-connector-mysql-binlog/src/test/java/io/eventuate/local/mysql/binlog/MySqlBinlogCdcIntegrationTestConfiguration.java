@@ -2,11 +2,11 @@ package io.eventuate.local.mysql.binlog;
 
 import io.eventuate.cdc.producer.wrappers.DataProducerFactory;
 import io.eventuate.cdc.producer.wrappers.kafka.EventuateKafkaDataProducerWrapper;
-import io.eventuate.common.eventuate.local.PublishedEvent;
 import io.eventuate.common.jdbc.EventuateSchema;
 import io.eventuate.common.spring.jdbc.sqldialect.SqlDialectConfiguration;
 import io.eventuate.coordination.leadership.LeaderSelectorFactory;
 import io.eventuate.coordination.leadership.zookeeper.ZkLeaderSelector;
+import io.eventuate.local.PublishedEvent;
 import io.eventuate.local.common.*;
 import io.eventuate.local.db.log.common.OffsetStore;
 import io.eventuate.local.test.util.SourceTableNameSupplier;

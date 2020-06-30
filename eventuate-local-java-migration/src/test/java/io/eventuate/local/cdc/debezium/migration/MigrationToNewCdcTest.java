@@ -3,7 +3,7 @@ package io.eventuate.local.cdc.debezium.migration;
 import com.google.common.collect.ImmutableMap;
 import io.debezium.config.Configuration;
 import io.debezium.embedded.EmbeddedEngine;
-import io.eventuate.common.eventuate.local.BinlogFileOffset;
+import io.eventuate.local.BinlogFileOffset;
 import io.eventuate.local.mysql.binlog.DebeziumBinlogOffsetKafkaStore;
 import io.eventuate.messaging.kafka.basic.consumer.EventuateKafkaConsumerConfigurationProperties;
 import io.eventuate.messaging.kafka.common.EventuateKafkaConfigurationProperties;

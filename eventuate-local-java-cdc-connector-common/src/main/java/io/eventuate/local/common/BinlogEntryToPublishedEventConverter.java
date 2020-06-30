@@ -1,6 +1,6 @@
 package io.eventuate.local.common;
 
-import io.eventuate.common.eventuate.local.PublishedEvent;
+import io.eventuate.local.PublishedEvent;
 
 import java.util.Optional;
 
@@ -14,6 +14,7 @@ public class BinlogEntryToPublishedEventConverter implements BinlogEntryToEventC
             binlogEntry.getStringColumn("event_data"),
             binlogEntry.getStringColumn("event_type"),
             binlogEntry.getBinlogFileOffset(),
-            Optional.ofNullable(binlogEntry.getStringColumn("metadata")));
+            Optional.ofNullable(binlogEntry.getStringColumn("metadata")),
+            Optional.ofNullable(binlogEntry.getStringColumn("extra_data")));
   }
 }

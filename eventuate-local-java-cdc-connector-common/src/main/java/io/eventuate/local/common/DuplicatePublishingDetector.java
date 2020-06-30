@@ -1,8 +1,8 @@
 package io.eventuate.local.common;
 
-import io.eventuate.common.eventuate.local.BinlogFileOffset;
-import io.eventuate.common.eventuate.local.PublishedEvent;
 import io.eventuate.common.json.mapper.JSonMapper;
+import io.eventuate.local.BinlogFileOffset;
+import io.eventuate.local.PublishedEvent;
 import io.eventuate.messaging.kafka.basic.consumer.*;
 import io.eventuate.messaging.kafka.common.EventuateKafkaMultiMessageConverter;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
